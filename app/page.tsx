@@ -14,7 +14,7 @@ export const metadata: Metadata = {
       {
         width: 1200,
         height: 630,
-        url: ".github/assets/ONOTO.gif",
+        url: "https://onoto.studio/wp-content/uploads/2025/03/video-site-web.gif",
       },
     ],
   },
@@ -27,7 +27,7 @@ export default function Web() {
         <div className="mx-auto grid max-w-(--breakpoint-xl) px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
              <img 
-              src=".github/assets/ONOTO.gif" 
+              src="https://onoto.studio/wp-content/uploads/2025/03/video-site-web.gif" 
               alt="ONOTO Studio" 
               className="mb-4 max-w-2xl mx-auto" 
             />
