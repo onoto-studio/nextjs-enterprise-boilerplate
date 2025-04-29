@@ -14,7 +14,7 @@ export const metadata: Metadata = {
       {
         width: 1200,
         height: 630,
-        url: "https://onoto.studio/wp-content/uploads/2025/03/video-site-web.gif",
+        url: "https://onoto.studio/wp-content/uploads/2025/04/ONOTO.gif",
       },
     ],
   },
@@ -24,12 +24,12 @@ export default function Web() {
   return (
     <>
       <section className="bg-white dark:bg-gray-900">
-        <div className="mx-auto grid max-w-(--breakpoint-xl) px-4 py-8 text-center lg:py-16">
+        <div className="mx-auto grid max-w-full px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
-             <img 
-              src="https://onoto.studio/wp-content/uploads/2025/03/video-site-web.gif" 
+            <img 
+              src="https://onoto.studio/wp-content/uploads/2025/04/ONOTO.gif" 
               alt="ONOTO Studio" 
-              className="mb-4 max-w-2xl mx-auto" 
+              className="mb-4 max-w-full mx-auto" 
             />
             <p className="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
               Je vous accompagne dans la mise en forme graphique et numérique de votre idée, en alliant créativité et structure. 
@@ -38,19 +38,13 @@ export default function Web() {
             <Button href="https://instagram.com/onoto.studio" className="mr-3">
               Instagram
             </Button>
-            <Button
-              href="https://facebook.com/onoto.studio"
-             className="mr-3" intent="secondary">
-            
+            <Button href="https://facebook.com/onoto.studio" className="mr-3">
               Facebook
             </Button>
-                        <Button
-              href="https://onoto.studio"
-              className="mr-3"
-            >
+            <Button href="https://onoto.studio" className="mr-3">
               Site web
             </Button>
-            <Button href="https://onoto.space" intent="secondary">
+            <Button href="https://onoto.space">
               Prendre RDV
             </Button>
           </div>
