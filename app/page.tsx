@@ -30,7 +30,8 @@ export default function Web() {
               ONOTO
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
-              Je vous accompagne dans la mise en forme graphique et numérique de votre idée, en alliant créativité et structure. Conception d’identités visuelles, création de logos, élaboration de chartes graphiques, design de sites vitrines, flyers, cartes de visite et bien plus encore.
+              Je vous accompagne dans la mise en forme graphique et numérique de votre idée, en alliant créativité et structure. 
+              <br />Conception d’identités visuelles, création de logos, élaboration de chartes graphiques, design de sites vitrines, flyers, cartes de visite et bien plus encore.
             </p>
             <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
               Instagram
