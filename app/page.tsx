@@ -41,7 +41,7 @@ export default function Web() {
             <Button
               href="https://facebook.com/onoto.studio"
              className="mr-3" intent="secondary">
-            >
+            
               Facebook
             </Button>
                         <Button
