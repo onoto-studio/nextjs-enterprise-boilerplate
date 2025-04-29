@@ -30,10 +30,10 @@ module.exports = {
       },
       fontFamily: {
         body: [
-          "Geist"
+          "Geist", 'sans-serif'
         ],
         sans: [
-          "Geist"
+          "Geist", 'sans-serif'
         ],
       },
       borderWidth: {
