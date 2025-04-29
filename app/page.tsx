@@ -33,14 +33,23 @@ export default function Web() {
               Je vous accompagne dans la mise en forme graphique et numérique de votre idée, en alliant créativité et structure. 
               <br />Conception d’identités visuelles, création de logos, élaboration de chartes graphiques, design de sites vitrines, flyers, cartes de visite et bien plus encore.
             </p>
-            <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
+            <Button href="https://instagram.com/onoto.studio" className="mr-3">
               Instagram
             </Button>
             <Button
-              href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
+              href="https://facebook.com/onoto.studio"
               intent="secondary"
             >
-              Deploy Now
+              Facebook
+            </Button>
+                        <Button
+              href="https://onoto.studio"
+              intent="secondary"
+            >
+              Site web
+            </Button>
+            <Button href="https://onoto.space" className="mr-3">
+              Prendre RDV
             </Button>
           </div>
         </div>
