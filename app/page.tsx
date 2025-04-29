@@ -25,13 +25,13 @@ export default function Web() {
     <>
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-full px-4 py-8 text-center lg:py-16">
-          <div className="mx-auto place-self-center">
+          <div className="mx-auto place-self-center max-w-full">
             <img 
               src="https://onoto.studio/wp-content/uploads/2025/04/ONOTO.gif" 
               alt="ONOTO Studio" 
-              className="mb-4 max-w-full mx-auto" 
+              className="mb-4 w-full max-w-xl mx-auto"  // Utilisation de max-w-xl et w-full pour une taille d'image plus appropriée
             />
-            <p className="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
+            <p className="mb-6 max-w-3xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400 mx-auto">
               Je vous accompagne dans la mise en forme graphique et numérique de votre idée, en alliant créativité et structure. 
               <br />Conception d’identités visuelles, création de logos, élaboration de chartes graphiques, design de sites vitrines, flyers, cartes de visite et bien plus encore.
             </p>
@@ -51,5 +51,5 @@ export default function Web() {
         </div>
       </section>
     </>
-  )
+  );
 }
