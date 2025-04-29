@@ -36,24 +36,17 @@ export default function Web() {
               ONOTO
             </h1>
 
-            <h2 className="text-3xl text-gray-900 dark:text-white mb-6">
-              Studio de design graphique
+            <h2 className="text-4xl text-gray-900 dark:text-white mb-6">
+              From ideas to shape
             </h2>
 
-            <p className="mb-6 max-w-3xl font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
+            <p className="mb-6 max-w-3xl font-light text-gray-400 md:text-lg lg:mb-8 text-2xl dark:text-gray-400">
               Découvrez mes projets
               <br /> sur mon <a href="https://instagram.com/onoto.studio" className="text-[#d1400d]">Instagram</a>,
               <br /> sur ma page <a href="https://facebook.com/onoto.studio" className="text-[#d1400d]">Facebook</a>,
               <br /> sur mon <a href="https://onoto.studio" className="text-[#d1400d]">Site vitrine</a>,
               <br /> ou <a href="https://onoto.space" className="text-[#d1400d]">prenez rendez-vous</a>.
             </p>
-
-            <div className="flex flex-wrap gap-3 mt-4">
-              <Button href="https://instagram.com/onoto.studio">Instagram</Button>
-              <Button href="https://facebook.com/onoto.studio">Facebook</Button>
-              <Button href="https://onoto.studio">Site web</Button>
-              <Button href="https://onoto.space">Prendre RDV</Button>
-            </div>
           </div>
         </div>
       </section>
