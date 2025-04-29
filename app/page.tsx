@@ -37,16 +37,16 @@ export default function Web() {
               Je vous accompagne dans la mise en forme graphique et numérique de votre idée, en alliant créativité et structure. 
               <br />Conception d’identités visuelles, création de logos, élaboration de chartes graphiques, design de sites vitrines, flyers, cartes de visite et bien plus encore.
             </p>
-            <Button href="https://instagram.com/onoto.studio" className="mr-3">
+            <Button href="https://instagram.com/onoto.studio" className="m-3">
               Instagram
             </Button>
-            <Button href="https://facebook.com/onoto.studio" className="mr-3">
+            <Button href="https://facebook.com/onoto.studio" className="m-3">
               Facebook
             </Button>
-            <Button href="https://onoto.studio" className="mr-3">
+            <Button href="https://onoto.studio" className="m-3">
               Site web
             </Button>
-            <Button href="https://onoto.space">
+            <Button href="https://onoto.space" className="m-3">
               Prendre RDV
             </Button>
           </div>
