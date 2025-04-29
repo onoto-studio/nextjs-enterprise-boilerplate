@@ -27,7 +27,7 @@ export default function Web() {
         <div className="mx-auto grid max-w-(--breakpoint-xl) px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
              <img 
-              src="/assets/ONOTO.gif" 
+              src=".github/assets/ONOTO.gif" 
               alt="ONOTO Studio" 
               className="mb-4 max-w-2xl mx-auto" 
             />
