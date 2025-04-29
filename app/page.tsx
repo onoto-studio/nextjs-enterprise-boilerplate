@@ -26,12 +26,11 @@ export default function Web() {
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-full px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center max-w-full">
-            <img 
-              src="https://onoto.studio/wp-content/uploads/2025/04/ONOTO.gif" 
-              alt="ONOTO" 
-              className="mb-4 w-1/2 max-w-xs mx-auto"  // Utilisation de max-w-xl et w-full pour une taille d'image plus appropriée
-            />
-            <p className="mb-6 max-w-3xl text-light text-gray-300 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400 mx-auto">
+            <h1 className="text-5xl text-left font-bold text-gray-900 dark:text-white">ONOTO
+            </h1>
+            <h2 className="text-left text-3xl text-gray-900 dark:text-white">
+            </h2>
+            <p className="mb-6 max-w-3xl font-light text-gray-400 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400 mx-auto text-left">
               Découvrez mes projets
               <br /> sur mon <a href="https://instagram.com/onoto.studio" className="text-[#d1400d]">Instagram</a>,
               <br /> sur ma page <a href="https://facebook.com/onoto.studio" className="text-[#d1400d]">Facebook</a>,
