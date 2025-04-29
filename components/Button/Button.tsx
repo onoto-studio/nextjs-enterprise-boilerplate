@@ -10,7 +10,7 @@ const button = cva(
     "rounded-xl",
     "text-center",
     "border",
-    "border-blue-400",
+    "border-[#d1400d]",
     "transition-colors",
     "delay-50",
   ],
