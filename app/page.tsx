@@ -29,9 +29,9 @@ export default function Web() {
             <img 
               src="https://onoto.studio/wp-content/uploads/2025/04/ONOTO.gif" 
               alt="ONOTO" 
-              className="mb-4 w-3/4 max-w-sm mx-auto"  // Utilisation de max-w-xl et w-full pour une taille d'image plus appropriée
+              className="mb-4 w-1/2 max-w-xs mx-auto"  // Utilisation de max-w-xl et w-full pour une taille d'image plus appropriée
             />
-            <h1>ONOTO
+            <h1 className="text-5xl text-gray-900 dark:text-white">ONOTO
             </h1>
             <p className="mb-6 max-w-3xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400 mx-auto">
               Je vous accompagne dans la mise en forme graphique et numérique de votre idée, en alliant créativité et structure. 
