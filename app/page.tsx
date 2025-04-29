@@ -4,7 +4,7 @@ import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "lp-items"
 
 export const metadata: Metadata = {
-  title: "Next.js Enterprise Boilerplate",
+  title: "ONOTO STUDIO",
   twitter: {
     card: "summary_large_image",
   },
@@ -30,9 +30,7 @@ export default function Web() {
               Next.js Enterprise Boilerplate
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
-              Jumpstart your enterprise project with our feature-packed, high-performance Next.js boilerplate!
-              Experience rapid UI development, AI-powered code reviews, and an extensive suite of tools for a smooth and
-              enjoyable development process.
+              Je vous accompagne dans la mise en forme graphique et numérique de votre idée, en alliant créativité et structure. Conception d’identités visuelles, création de logos, élaboration de chartes graphiques, design de sites vitrines, flyers, cartes de visite et bien plus encore.
             </p>
             <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
               Instagram
