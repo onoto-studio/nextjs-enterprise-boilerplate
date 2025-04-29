@@ -40,7 +40,7 @@ export default function Web() {
             </Button>
             <Button
               href="https://facebook.com/onoto.studio"
-             className="mr-3"
+             className="mr-3" intent="secondary">
             >
               Facebook
             </Button>
