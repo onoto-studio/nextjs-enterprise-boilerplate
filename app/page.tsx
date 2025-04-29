@@ -31,11 +31,11 @@ export default function Web() {
               alt="ONOTO" 
               className="mb-4 w-1/2 max-w-xs mx-auto"  // Utilisation de max-w-xl et w-full pour une taille d'image plus appropriée
             />
-            <p className="mb-6 text-5xl max-w-3xl text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400 mx-auto">
+            <p className="mb-6 max-w-3xl text-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400 mx-auto">
               Découvrir mes projets sur mon <a href="https://instagram.com/onoto.studio" className="m-3">Instagram</a> ou
-              <br /> sur ma page <a href="https://facebook.com/onoto.studio" className="text-gray-900 dark:text-white">Facebook</a>,
-              <br /> sur mon <a href="https://onoto.studio" className="text-gray-900 dark:text-white">Site vitrine</a>,
-              <br /> ou <a href="https://onoto.space" className="text-gray-900 dark:text-white">prenez rendez-vous</a>,
+              <br /> sur ma page <a href="https://facebook.com/onoto.studio" className="text-gray-900 text-light dark:text-white">Facebook</a>,
+              <br /> sur mon <a href="https://onoto.studio" className="text-gray-900 text-light dark:text-white">Site vitrine</a>,
+              <br /> ou <a href="https://onoto.space" className="text-gray-900 text-light dark:text-white">prenez rendez-vous</a>,
             </p> 
           </div>
         </div>
