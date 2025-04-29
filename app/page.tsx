@@ -28,9 +28,11 @@ export default function Web() {
           <div className="mx-auto place-self-center max-w-full">
             <img 
               src="https://onoto.studio/wp-content/uploads/2025/04/ONOTO.gif" 
-              alt="ONOTO Studio" 
-              className="mb-4 w-full max-w-xl mx-auto"  // Utilisation de max-w-xl et w-full pour une taille d'image plus appropriée
+              alt="ONOTO" 
+              className="mb-4 w-3/4 max-w-sm mx-auto"  // Utilisation de max-w-xl et w-full pour une taille d'image plus appropriée
             />
+            <h1>ONOTO
+            </h1>
             <p className="mb-6 max-w-3xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400 mx-auto">
               Je vous accompagne dans la mise en forme graphique et numérique de votre idée, en alliant créativité et structure. 
               <br />Conception d’identités visuelles, création de logos, élaboration de chartes graphiques, design de sites vitrines, flyers, cartes de visite et bien plus encore.
