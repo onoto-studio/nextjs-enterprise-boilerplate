@@ -40,7 +40,7 @@ export default function Web() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.8 }}
         >
-          Scannez pour découvrir ONOTO
+          Scannnez pour découvrir ONOTO
         </motion.h1>
       </motion.div>
     </main>
