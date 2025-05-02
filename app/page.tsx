@@ -1,9 +1,12 @@
-import { Metadata } from "next";
-import { motion } from "framer-motion";
+import { Metadata } from "next"
+import { Button } from "components/Button/Button"
+import { LP_GRID_ITEMS } from "lp-items"
 
 export const metadata: Metadata = {
-  title: "ONOTO STUDIO - QR Code",
-  twitter: { card: "summary_large_image" },
+  title: "ONOTO STUDIO",
+  twitter: {
+    card: "summary_large_image",
+  },
   openGraph: {
     url: "https://next-enterprise.vercel.app/",
     images: [
@@ -14,35 +17,39 @@ export const metadata: Metadata = {
       },
     ],
   },
-};
+}
 
 export default function Web() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-black">
-      <motion.div
-        initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
-        animate={{ opacity: 1, scale: 1, rotate: 0 }}
-        transition={{ duration: 1, ease: "easeOut" }}
-        className="flex flex-col items-center space-y-6 text-white"
-      >
-        <motion.img
-          src="https://onoto.studio/wp-content/uploads/2025/04/qr-code-onoto.png"
-          alt="QR Code ONOTO"
-          className="w-64 h-64 rounded-xl shadow-2xl"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5, duration: 1 }}
-        />
+    <>
+      <section className="bg-white dark:bg-gray-900">
+        <div className="mx-auto grid max-w-full px-4 py-8 text-center lg:py-16">
+          <div className="mx-auto place-self-center max-w-full pl-[10px] pt-[10px] text-left">
+            {/* Optionnel : réactive l’image si tu veux */}
+            {/* <img 
+              src="https://onoto.studio/wp-content/uploads/2025/04/ONOTO.gif" 
+              alt="ONOTO" 
+              className="mb-4 w-1/2 max-w-xs mx-auto"
+            /> */}
+            
+            <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
+              ONOTO
+            </h1>
 
-        <motion.h1
-          className="text-3xl font-semibold tracking-wide"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 0.8 }}
-        >
-          Scannez pour découvrir ONOTO
-        </motion.h1>
-      </motion.div>
-    </main>
+            <h2 className="text-4xl text-gray-900 dark:text-white mb-6">
+              From ideas to shape
+            </h2>
+
+            <p className="mb-6 max-w-3xl font-light text-gray-400 md:text-lg lg:mb-8 text-2xl dark:text-gray-400">
+              Découvrez mes projets
+              <br /> sur mon <a href="https://instagram.com/onoto.studio" className="text-[#d1400d]">Instagram</a>,
+              <br /> sur ma page <a href="https://facebook.com/onoto.studio" className="text-[#d1400d]">Facebook</a>,
+              <br /> sur mon <a href="https://onoto.studio" className="text-[#d1400d]">Site vitrine</a>,
+              <br /> ou <a href="https://onoto.space" className="text-[#d1400d]">prenez rendez-vous</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
